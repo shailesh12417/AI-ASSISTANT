@@ -21,10 +21,6 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-
-
-
-
 def search(command):
 
     groq_api_key= os.getenv("GROQ_API_KEY")
